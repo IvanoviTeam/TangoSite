@@ -1,0 +1,85 @@
+body {
+	padding-top: 0px;
+	background-image: url("../images/bg.jpg");
+}
+
+.row {
+	padding-top: 50px;
+}
+
+.inner-text {
+	padding-top: 30px;
+}
+
+#myCarousel {
+	-webkit-box-shadow: 0 18px 28px -12px black;
+    -moz-box-shadow: 0 18px 28px -12px black;
+    box-shadow: 0 18px 25px -12px black;
+    border: 5px solid white;
+}
+/*.btn btn-default{
+	padding-top: 20px;
+}*/
+
+/*hr {
+  background-color: #123455;
+}
+*/
+
+.verticalLine {
+    border:solid #9d9d9d 1px;
+}
+
+#holder {
+	background-color: #e7e7e7;
+	height:250px;
+    width:100%;
+	-webkit-box-shadow: 0 18px 28px -12px black;
+    -moz-box-shadow: 0 18px 28px -12px black;
+    box-shadow: 0 18px 25px -12px black;
+    border: 5px solid white;
+
+}
+
+.logo {
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	/*padding-top: 50px;*/
+}
+
+.img-thumbnail {
+	-webkit-box-shadow: 0 18px 28px -12px black;
+    -moz-box-shadow: 0 18px 28px -12px black;
+    box-shadow: 0 18px 25px -12px black;
+}
+
+hr.style-two {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
+}
+
+./*home {
+	height: 100%;*/
+}
+
+.server-action-menu {
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(30, 87, 153, 0.2) 0%, rgba(125, 185, 232, 0) 100%);
+    background-repeat: repeat;
+    border-radius:10px;
+    padding: 5px;
+}
+
+.col-md-3 {
+	padding: 8px;
+}
+
+.clear { clear: both; height: 60px; }
+/*#myCarousel { width: 710px; border-radius: 10px; position: relative; overflow: hidden; z-index: 9999;}*/
