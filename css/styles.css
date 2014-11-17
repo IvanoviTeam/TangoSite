@@ -157,6 +157,7 @@ hr.style-two {
 
 .caption h4 {
   white-space: nowrap;
+  word-wrap: break-word;
 }
 
 .thumbnail img {
