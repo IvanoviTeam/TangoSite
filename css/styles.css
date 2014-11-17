@@ -36,8 +36,10 @@ body {
 	position: absolute;
 	margin-left: auto;
 	margin-right: auto;
+    margin-top: 10px;
 	left: 0;
 	right: 0;
+    z-index: 2;
 }
 
 #navbar2 {
@@ -45,7 +47,7 @@ body {
 }
 
 #navbox {
-    
+
 }
 
 .navbar3 {
@@ -166,4 +168,23 @@ hr.style-two {
 .thumbnail .caption-full {
   padding: 9px;
   color: #333;
+}
+
+.navbar {
+    background-image: url("images/bg.jpg");
+    background-repeat: repeat;
+}
+
+#main {
+    height: 60px;
+}
+
+.re_s_1 {
+position: absolute;
+height: 11px;
+left: 0;
+bottom: -11px;
+background: url("images/re_s_2.png") repeat;
+width: 100%;
+z-index: 1;
 }
