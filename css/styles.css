@@ -1,5 +1,6 @@
 body {
 	padding-top: 0px;
+
 }
 
 .row {
@@ -150,7 +151,7 @@ hr.style-two {
 
 .caption {
   height: 130px;
-  overflow: hidden;
+  word-wrap: break-word;
 }
 
 .caption h4 {
@@ -171,20 +172,9 @@ hr.style-two {
 }
 
 .navbar {
-    background-image: url("images/bg.jpg");
-    background-repeat: repeat;
+
 }
 
 #main {
     height: 60px;
-}
-
-.re_s_1 {
-position: absolute;
-height: 11px;
-left: 0;
-bottom: -11px;
-background: url("images/re_s_2.png") repeat;
-width: 100%;
-z-index: 1;
 }
