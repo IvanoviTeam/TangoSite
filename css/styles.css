@@ -86,7 +86,7 @@ body {
     line-height: 45px;
 }
 .img-thumbnail {
-	-webkit-box-shadow: 0 18px 28px -12px black;
+    -webkit-box-shadow: 0 18px 28px -12px black;
     -moz-box-shadow: 0 18px 28px -12px black;
     box-shadow: 0 18px 25px -12px black;
 }
@@ -139,9 +139,31 @@ hr.style-two {
 }
 
 #products {
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 #breakfast {
     margin-bottom: 20px;
+}
+
+.caption {
+  height: 130px;
+  overflow: hidden;
+}
+
+.caption h4 {
+  white-space: nowrap;
+}
+
+.thumbnail img {
+  width: 100%;
+}
+
+.thumbnail {
+  padding: 0;
+}
+
+.thumbnail .caption-full {
+  padding: 9px;
+  color: #333;
 }
