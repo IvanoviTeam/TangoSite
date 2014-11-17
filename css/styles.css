@@ -16,6 +16,7 @@ body {
     -moz-box-shadow: 0 18px 28px -12px black;
     box-shadow: 0 18px 25px -12px black;
     border: 5px solid white;
+    max-width: 800px;
 }
 
 .verticalLine {
@@ -44,15 +45,26 @@ body {
 }
 
 #navbar2 {
-    padding-top: 80px;
-    width: 50%;
+    margin-top: 90px;
+    margin-bottom: 10px;
+    max-width: 600px;
 }
 
-#navbox {
-
+#navbar_list {
+    text-align: center;
 }
 
-.navbar3 {
+#navbar_list a {
+    margin-top: 3px;
+    color: gray; 
+    margin-right: 5px;
+}
+
+#navbar_list a:hover {
+    background-color: transparent;
+    color: #e02b29;
+}
+/*.navbar3 {
     margin-top: 80px;
     margin-bottom: 50px;
     width: 100%;
@@ -62,7 +74,7 @@ body {
     margin-right: auto;
     border: solid #e7e7e7 1px;
     text-align: center;
-}
+}*/
 
 .subbar {
     margin-top: 80px;
@@ -121,7 +133,7 @@ hr.style-two {
 }
 
 .divider{
-    color:black;
+    color: #333333;
     width:70%;
     margin:20px auto;
     overflow:hidden;
@@ -138,6 +150,7 @@ hr.style-two {
     border-bottom:1px solid #ccc;
     margin:0 2% 0 -55%;
 }
+
 .divider:after{
     margin:0 -55% 0 2%;
 }
@@ -172,4 +185,3 @@ hr.style-two {
   padding: 9px;
   color: #333;
 }
-
