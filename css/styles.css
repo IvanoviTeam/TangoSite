@@ -17,6 +17,8 @@ body {
     box-shadow: 0 18px 25px -12px black;
     border: 5px solid white;
     max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
 }
 
 .verticalLine {
@@ -42,6 +44,28 @@ body {
 	left: 0;
 	right: 0;
     z-index: 2;
+}
+
+#right {
+    border-color: #ba1621; 
+}
+
+#main {
+    background-color: #ba1621;
+    border-color: #ba1621;
+}
+
+#gostilnica {
+    font-size: 16px;
+}
+
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+    border-color: #ba1621;
+}
+
+#main a{
+    color: white;
 }
 
 #navbar2 {
@@ -185,3 +209,15 @@ hr.style-two {
   padding: 9px;
   color: #333;
 }
+
+@media (min-width: 768px) {
+  .navbar-left {
+    float: left !important;
+  }
+  .navbar-right {
+    float: right !important;
+    margin-right: -50px;
+  }
+  .navbar-right ~ .navbar-right {
+    margin-right: 0;
+  }
