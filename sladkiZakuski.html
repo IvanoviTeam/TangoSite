@@ -7,6 +7,9 @@
 		<meta name="viewport" content ="width=device-width, initial-scale=1.0">
 		<link href = "css/bootstrap.min.css" rel = "stylesheet">
 		<link href = "css/styles.css" rel = "stylesheet">
+        <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <link href="css/lightbox.css" rel="stylesheet" />
 	</head>
 
 	<body>
@@ -27,8 +30,8 @@
 				<div class="collapse navbar-collapse navHeaderCollapse">
 					<ul class="nav navbar-nav navbar-right">
                         <li><a href="zakuski.html">Цех за закуски</a></li>
-                        <li><a href="#" id="gostilnica">Гостилница</a></li>
-                        <li><a href="#">Контакт</a></li>
+                        <li><a href="gostilnica.html" id="gostilnica">Гостилница</a></li>
+                        <li><a href="contact.html">Контакт</a></li>
 					</ul>
 				</div>
 			</div>
@@ -38,11 +41,11 @@
 <!-- SECOND NAVBAR -->
     <div class="container" id="navbar2">
         <ul class="nav navbar-nav" id="navbar_list">
-        <li><a href="Сандвич.html">Сандвичи</a></li>
-        <li><a href="Солени Закуски.html">Солени закуски</a></li>
-        <li><a href="Сладки Закуски.html">Сладки закуски</a></li>
-        <li><a href="Баници и пити.html">Баници и пити</a></li>
-        <li><a href="Пици.html">Пици</a></li>
+        <li><a href="sandvichi.html">Сандвичи</a></li>
+        <li><a href="soleniZakuski.html">Солени закуски</a></li>
+        <li><a href="sladkiZakuski.html">Сладки закуски</a></li>
+        <li><a href="baniciPiti.html">Баници и пити</a></li>
+        <li><a href="pici.html">Пици</a></li>
         </ul>
         <h3 class="divider" id="nav2"><img src="images/separator2.png"></h3>
     </div>
@@ -52,35 +55,46 @@
 	<div class="container" id="products">
 		<h3 class="divider">Сладки закуски</h3>
 		<div class="row">
+            <div class="col-md-3">
+                <div class="thumbnail"> 
+                    <a href="images/products/ponichki-s-krem-(1).jpg" data-lightbox="image-1" data-title="Пирожка с ягодово сладко"><img src="images/products/ponichki-s-krem-(1).jpg" alt=""></a>
+                    <div class="caption">
+                        <h4>Пирожка с ягодово сладко</h4>
+                        <h4>150гр.</h4>
+                        <p><!-- Допълнителна информация тук! --></p>
+                    </div>
+                </div> 
+            </div>
+
 			<div class="col-md-3">
 				<div class="thumbnail"> 
-                    <img src="images/products/kozunachena-kifla-(2).jpg" alt="">
+                    <a href="images/products/kozunachena-kifla-(2).jpg" data-lightbox="image-2" data-title="Козуначена кифла"><img src="images/products/kozunachena-kifla-(2).jpg" alt=""></a>
                     <div class="caption">
                         <h4>Козуначена кифла</h4>
                         <h4>170гр.</h4>
-                        <p>Допълнителна информация тук!</p>
+                        <p><!-- Допълнителна информация тук! --></p>
                     </div>
                 </div>    
 			</div>			
 
 			<div class="col-md-3">
 				<div class="thumbnail"> 
-                    <img src="images/products/kifla-s-marmalad-(2).jpg" alt="">
+                    <a href="images/products/kifla-s-marmalad-(2).jpg" data-lightbox="image-3" data-title="Кифла с мармалад"><img src="images/products/kifla-s-marmalad-(2).jpg" alt=""></a>
                     <div class="caption">
                         <h4>Кифла с мармалад</h4>
                          <h4>160гр.</h4>
-                        <p>Допълнителна информация тук!</p>
+                        <p><!-- Допълнителна информация тук! --></p>
                     </div>
                 </div> 
 			</div>
 			
 			<div class="col-md-3">
 				<div class="thumbnail"> 
-                    <img src="images/products/kifla-s-shokolad-(1).jpg" alt="">
+                    <a href="images/products/kifla-s-shokolad-(1).jpg" data-lightbox="image-4" data-title="Кифла с шоколад"><img src="images/products/kifla-s-shokolad-(1).jpg" alt=""></a>
                     <div class="caption">
                         <h4>Кифла с шоколад</h4>
                         <h4>160гр.</h4>
-                        <p>Допълнителна информация тук!</p>
+                        <p><!-- Допълнителна информация тук! --></p>
                     </div>
                 </div> 
         	</div>
@@ -91,7 +105,7 @@
                     <div class="caption">
                         <h4>Кифла със сметанов крем</h4>
                         <h4>160гр.</h4>
-                        <p>Допълнителна информация тук!</p>
+                        <p><!-- Допълнителна информация тук! --></p>
                     </div>
                 </div> 
         	</div>
@@ -102,7 +116,7 @@
                     <div class="caption">
                         <h4>Кифла с ягодово сладко</h4>
                         <h4>160гр.</h4>
-                        <p>Допълнителна информация тук!</p>
+                        <p><!-- Допълнителна информация тук! --></p>
                     </div>
                 </div>    
 			</div>			
@@ -113,7 +127,7 @@
                     <div class="caption">
                         <h4>Кифла с локум</h4>
                         <h4>160гр.</h4>
-                        <p>Допълнителна информация тук!</p>
+                        <p><!-- Допълнителна информация тук! --></p>
                     </div>
                 </div> 
 			</div>
@@ -121,62 +135,53 @@
 
 			<div class="col-md-3">
 				<div class="thumbnail"> 
-                    <img src="http://placehold.it/250x150" alt="">
+                    <a href="images/products/kremka.jpg" data-lightbox="image-8" data-title="Кифла с шоколад"><img src="images/products/kremka.jpg" alt=""></a>
                     <div class="caption">
                         <h4>Кремка</h4>
                         <h4>160гр.</h4>
-                        <p>Допълнителна информация тук!</p>
+                        <p><!-- Допълнителна информация тук! --></p>
                     </div>
                 </div> 
         	</div>
 
 			<div class="col-md-3">
 				<div class="thumbnail"> 
-                    <img src="images/products/ponichki-s-krem-(2).jpg" alt="">
+                    <a href="images/products/ponichki-s-krem-(2).jpg" data-lightbox="image-9" data-title="Поничка с крем"><img src="images/products/ponichki-s-krem-(2).jpg" alt=""></a>
                     <div class="caption">
                         <h4>Поничка с крем</h4>
                         <h4>150гр.</h4>
-                        <p>Допълнителна информация тук!</p>
+                        <p><!-- Допълнителна информация тук! --></p>
                     </div>
                 </div> 
         	</div>
 
+
+            <div class="col-md-3">
+                <div class="thumbnail"> 
+                    <a href="images/products/gevreche-(2).jpg" data-lightbox="image-10" data-title="Геврек"><img src="images/products/gevreche-(2).jpg" alt=""></a>
+                    <div class="caption">
+                        <h4>Геврек</h4>
+                        <h4>150гр.</h4>
+                        <p><!-- Допълнителна информация тук! --></p>
+                    </div>
+                </div> 
+            </div>
+
         	<div class="col-md-3">
 				<div class="thumbnail"> 
-                    <img src="images/products/ponichka-sys-shokolad.jpg" alt="">
+                    <a href="images/products/ponichka-sys-shokolad.jpg" data-lightbox="image-11" data-title="Поничка с шоколад"><img src="images/products/ponichka-sys-shokolad.jpg" alt=""></a>
                     <div class="caption">
                         <h4>Поничка с шоколад</h4>
                         <h4>150гр.</h4>
-                        <p>Допълнителна информация тук!</p>
+                        <p><!-- Допълнителна информация тук! --></p>
                     </div>
                 </div>    
 			</div>			
 
-			<div class="col-md-3">
-				<div class="thumbnail"> 
-                    <img src="http://placehold.it/250x150" alt="">
-                    <div class="caption">
-                        <h4>Геврек</h4>
-                        <h4>150гр.</h4>
-                        <p>Допълнителна информация тук!</p>
-                    </div>
-                </div> 
-			</div>
-			
-			<div class="col-md-3">
-				<div class="thumbnail"> 
-                    <img src="http://placehold.it/250x150" alt="">
-                    <div class="caption">
-                        <h4>Пирожка с ягодово сладко</h4>
-                        <h4>150гр.</h4>
-                        <p>Допълнителна информация тук!</p>
-                    </div>
-                </div> 
-        	</div>
 
 			<div class="col-md-3">
 				<div class="thumbnail"> 
-                    <img src="images/products/mini-kiflichki-(3).jpg" alt="">
+                    <a href="images/products/mini-kiflichki-(3).jpg" data-lightbox="image-12" data-title="Мини кифлички"><img src="images/products/mini-kiflichki-(3).jpg" alt=""></a>
                     <div class="caption">
                         <h4>Мини кифлички</h4>
                         <h4>420гр.</h4>
@@ -187,14 +192,25 @@
 
         	<div class="col-md-3">
 				<div class="thumbnail"> 
-                    <img src="images/products/rulo-(2).jpg" alt="">
+                    <a href="images/products/rulo-(2).jpg" data-lightbox="image-13" data-title="Руло"><img src="images/products/rulo-(2).jpg" alt=""></a>
                     <div class="caption">
                         <h4>Руло</h4>
                         <h4>450гр.</h4>
-                        <p>Допълнителна информация тук!</p>
+                        <p><!-- Допълнителна информация тук! --></p>
                     </div>
                 </div> 
         	</div>
+
+            <div class="col-md-3">
+                <div class="thumbnail"> 
+                    <a href="images/products/mini-kozunache.jpg" data-lightbox="image-14" data-title="Мини Козуначе"><img src="images/products/mini-kozunache.jpg" alt=""></a>
+                    <div class="caption">
+                        <h4>Мини Козуначе</h4>
+                        <h4>???гр.</h4>
+                        <p><!-- Допълнителна информация тук! --></p>
+                    </div>
+                </div> 
+            </div>
 		</div>
 	</div>
 <!-- END OF PRODUCTS -->
