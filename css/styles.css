@@ -150,6 +150,7 @@ hr.style-two {
 
 .col-md-3 {
 	padding: 8px;
+    margin-top: 35px;
 }
 
 .footer {
@@ -221,3 +222,11 @@ hr.style-two {
   .navbar-right ~ .navbar-right {
     margin-right: 0;
   }
+
+span.glyphicon {
+    font-size: 2.2em;
+}
+
+form {
+    padding-top: 50px;
+}
