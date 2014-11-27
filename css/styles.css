@@ -13,9 +13,9 @@ body {
 }
 
 #myCarousel {
-	-webkit-box-shadow: 0 18px 28px -12px black;
-    -moz-box-shadow: 0 18px 28px -12px black;
-    box-shadow: 0 18px 25px -12px black;
+	-webkit-box-shadow: 0 18px 28px -12px grey;
+    -moz-box-shadow: 0 18px 28px -12px grey;
+    box-shadow: 0 18px 25px -12px grey;
     border: 5px solid white;
     max-width: 800px;
     margin: 0 auto;
@@ -122,15 +122,6 @@ body {
     box-shadow: 0 18px 25px -12px black;
 }
 
-hr.style-two {
-    border: 0;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:    -moz-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:     -ms-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-    background-image:      -o-linear-gradient(left, rgba(0,0,0,0), rgba(0,0,0,0.75), rgba(0,0,0,0)); 
-}
-
 .server-action-menu {
     background-color: transparent;
     background-image: linear-gradient(to bottom, rgba(30, 87, 153, 0.2) 0%, rgba(125, 185, 232, 0) 100%);
@@ -228,4 +219,3 @@ form {
 
 #index-kontakt {
     margin-top: 20px;
-}
