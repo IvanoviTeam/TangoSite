@@ -237,11 +237,65 @@ span.glyphicon {
     font-size: 2.2em;
 }
 
-form {
-    padding-top: 50px;
+#contact-form1 {
+    padding-top: 0px;
+}   
+
+#contact-form2 {
+    padding-top: 70px;
+}
+
+#contact-padding {
+   padding-top: 20px;
+}
+
+input {
+height: 34px;
+font-size: 14px;
+line-height: 1.42857143;
+color: #555;
+padding: 6px 10px;
+background-color: #fff;
+background-image: none;
+border: 1px solid #ccc;
+border-radius: 4px;
+}
+
+#formInput {
+    width: 500px;
+    margin: 0px;
+}
+
+#send {
+    margin: 5px;
+}
+
+textarea {
+    width: 500px;
+    height: 170px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    padding: 6px 10px;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
 }
 
 #kolichka {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+
+                    <form action="mail.php" method="POST">
+                        <input type="text" name="name" placeholder="Име" id="formInput">
+                        <input type="text" name="email" placeholder="Поща"  id="formInput">
+                        <input type="text" name="phone" placeholder="Телефон" id="formInput">
+
+                        <p>Message</p>
+                            <textarea name="message" rows="6" cols="25" placeholder="Запишете съобщението, което искате да изпратите." ></textarea><br/>
+                            <input type="submit" value="Send" id="send">
+                            <input type="reset" value="Clear" id="send">
+                    </form>
