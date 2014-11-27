@@ -19,6 +19,7 @@ body {
     max-width: 800px;
     margin: 0 auto;
     margin-top: 80px;
+    margin-bottom: 30px;
 }
 
 .verticalLine {
@@ -229,4 +230,9 @@ span.glyphicon {
 
 form {
     padding-top: 50px;
+}
+
+#kolichka {
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
