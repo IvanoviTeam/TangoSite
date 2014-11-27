@@ -1,10 +1,11 @@
 body {
 	padding-top: 0px;
+    font-variant: small-caps;
 
 }
 
 .row {
-	padding-top: 30px;
+	padding-top: 10px;
 }
 
 .inner-text {
@@ -167,6 +168,15 @@ hr.style-two {
     line-height:1.2em;
 }
 
+.divider{
+    color: #333333;
+    width:70%;
+    margin-top: 45px;
+    overflow:hidden;
+    text-align:center;   
+    line-height:1.2em;
+}
+
 .divider:before, .divider:after{
     content:"";
     vertical-align:top;
@@ -182,7 +192,6 @@ hr.style-two {
 }
 
 #products {
-    padding-top: 20px;
 }
 
 #breakfast {
