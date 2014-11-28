@@ -259,3 +259,7 @@ h3 {
     background: #f2f2f2;
 }
 
+ .navbar-right {
+    float: right !important;
+    margin-right: -30px;
+  }
