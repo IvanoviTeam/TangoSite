@@ -1,9 +1,10 @@
 body {
 	padding-top: 0px;
     font-variant: small-caps;
-    background-image: url("images/bg2.jpg");
+    background-image: url(images/logo2.png);
     background-repeat: repeat;
 }
+
 
 .row {
 	padding-top: 10px;
